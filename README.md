@@ -41,7 +41,6 @@ As IntelliJ has build-in plugin for Maven projects, you can simply run project b
 running Main class in it. To open Maven project in IntelliJ follow this guide:  
 [Opening Maven Projects is Easy as Pie](https://blog.jetbrains.com/idea/2008/03/opening-maven-projects-is-easy-as-pie/)
 
-
 ### If project still won't start
 * Look for .xml file in src/main/resources folder. If it's not there project won't run!
 To write your own xml file use this as template: 
@@ -49,11 +48,12 @@ To write your own xml file use this as template:
 * In same folder config.properties is needed to run project. It specify path to XML file
 which you can change if you need to. In case of changes to path, XML file should be in
 specified folder, not in resources!
-##Features
+
+## Features
 * Calculate how much other currency you have (it takes Euro as converted currency)
 * Update your rates to up-to-date by changing xml file
 * Currencies names are sorted alphabetical to search quicker for currency
 
-###To do
+### To do
 * Add more tests
 * Add reverse conversion (other currency to EUR)
